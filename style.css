@@ -344,3 +344,41 @@ h4 {
     padding: 0px 208px;
     margin-top: 120px;
 }
+
+.third-details-mb {
+    margin-bottom: 140px;
+}
+
+
+
+#features {
+    background-color: #FAFBFD;
+}
+
+.f-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-container .para {
+    font-size: 22px;
+    margin: 0px 316px;
+    text-align: center;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 300;
+    color: #282E37;
+    line-height: 1.5em;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.course {
+    padding: 0px 10px;
+}
