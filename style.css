@@ -89,7 +89,6 @@ header .social img {
     text-align: center;
     margin-top: 160px;
     margin-bottom: 160px;
-    padding: 0 235px;
 }
 
 .portfolio-section .card {
@@ -129,7 +128,6 @@ header .social img {
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-items: center;
-    padding: 0 124px;
 }
 
 .blue-section-container .swipe-images img {
@@ -681,11 +679,354 @@ h4 {
 
 
 
+
+
+@media screen and (max-width: 1200px){
+    .blue-section-container .swipe-images{
+        /* grid-template-columns: auto auto auto auto; */
+        padding: 0px;
+    }
+    .blue-section-container .swipe-images img {
+        margin-bottom: 5px;
+        width: 240px;
+    }
+    .blue-section-container .blue-section {
+        height: 50vh;
+        margin-top: -100px;
+    }
+
+
+    .details{
+        flex-direction: column;
+    }
+    .details img {
+        width: 100%;
+    }
+    .details .right{
+        padding: 0 31px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .details:nth-child(2) {
+        margin: 32px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .scnd-left {
+        padding: 0px 70px;
+    }
+    .margin-padding {
+        /* padding: 0px 0px 0px 68px; */
+        margin-top: 0px;
+    }
+    .third-details-mb {
+        margin-bottom: 0px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1024px){
+    header{
+        padding: 40px 0px;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+    }
+
+    .top-container {
+        display: none;
+    }
+    header .text-container {
+        max-width: 426px;
+        margin-left: 34px;
+    }
+
+
+
+     .portfolio-section{
+        grid-template-columns: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .portfolio-section .card:nth-child(2) {
+        border: none;
+        margin-top: 0px;
+    }
+    .portfolio-section .card {
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+
+    .blue-section-container .swipe-images{
+        /* grid-template-columns: auto auto auto auto; */
+        padding: 0px;
+    }
+    .blue-section-container .swipe-images img {
+        margin-bottom: 5px;
+        width: 240px;
+    }
+    .blue-section-container .blue-section {
+        height: 50vh;
+        margin-top: -100px;
+    }
+
+
+
+    .details{
+        flex-direction: column;
+    }
+    .details img {
+        width: 100%;
+    }
+    .details .right{
+        padding: 0 31px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .details:nth-child(2) {
+        margin: 32px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .scnd-left {
+        padding: 0px 70px;
+    }
+    .margin-padding {
+        /* padding: 0px 0px 0px 68px; */
+        margin-top: 0px;
+    }
+    .third-details-mb {
+        margin-bottom: 0px;
+    }
+
+
+    .feature-grid {
+        grid-template-columns: auto auto;
+        max-width: 100%;
+        margin: 0px auto 65px auto;
+    }
+    .feature-block {
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    .oc-card{
+        margin: 0px;
+    }
+
+
+
+    .developers-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        margin-top: 20px;
+    }
+    .developers-container .designer-card {
+        width: 94%;
+        height: 248px;
+    }
+
+
+    .logo-images {
+        grid-template-columns: auto auto;
+    }
+
+
+    #contact-section {
+        background: white;
+        padding: 0px;
+    }
+    .contact-container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .query {
+        max-width: 100%;
+        width: 100%;
+        padding-right: 0px;
+    }
+    .query .anyquery p {
+        font-size: 32px;
+    }
+    .form-wrapper {
+        width: 100%;
+        box-shadow: none;
+        padding: 0px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 960px){
+    .blue-section-container .swipe-images{
+        grid-template-columns: auto auto;
+        padding: 0px;
+    }
+    .blue-section-container .swipe-images img {
+        margin-bottom: 5px;
+        min-width: 90%;
+    }
+    .blue-section-container .swipe-images img:nth-child(-n+2) {
+        display: none;
+    }
+    .blue-section-container .blue-section {
+        height: 82vh;
+        margin-top: -100px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    header{
+        padding: 40px 0px;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+    }
+
+    .top-container {
+        display: none;
+    }
+    header .text-container {
+        max-width: 426px;
+        margin-left: 34px;
+    }
+
+
+
+     .portfolio-section{
+        grid-template-columns: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .portfolio-section .card:nth-child(2) {
+        border: none;
+        margin-top: 0px;
+    }
+    .portfolio-section .card {
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+
+
+    .blue-section-container .swipe-images{
+        grid-template-columns: auto auto;
+        padding: 0px;
+    }
+    .blue-section-container .swipe-images img {
+        margin-bottom: 5px;
+        min-width: 90%;
+    }
+    .blue-section-container .swipe-images img:nth-child(-n+2) {
+        display: none;
+    }
+    .blue-section-container .blue-section {
+        height: 82vh;
+        margin-top: -100px;
+    }
+
+
+
+    .details{
+        flex-direction: column;
+    }
+    .details img {
+        width: 100%;
+    }
+    .details .right{
+        padding: 0 31px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .details:nth-child(2) {
+        margin: 32px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .scnd-left {
+        padding: 0px 70px;
+    }
+    .margin-padding {
+        /* padding: 0px 0px 0px 68px; */
+        margin-top: 0px;
+    }
+    .third-details-mb {
+        margin-bottom: 0px;
+    }
+
+
+    .feature-grid {
+        grid-template-columns: auto auto;
+        max-width: 100%;
+        margin: 0px auto 65px auto;
+    }
+    .feature-block {
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    .oc-card{
+        margin: 0px;
+    }
+
+
+
+    .developers-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        margin-top: 20px;
+    }
+    .developers-container .designer-card {
+        width: 94%;
+        height: 248px;
+    }
+
+
+    .logo-images {
+        grid-template-columns: auto auto;
+    }
+
+
+
+    #contact-section {
+        background: white;
+        padding: 0px;
+    }
+    .contact-container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .query {
+        max-width: 100%;
+        width: 100%;
+        padding-right: 0px;
+    }
+    .query .anyquery p {
+        font-size: 32px;
+    }
+    .form-wrapper {
+        width: 100%;
+        box-shadow: none;
+        padding: 0px;
+    }
+
+}
+
+
+
 @media screen and (max-width: 600px) {
     header{
+        box-shadow: inset 386px 0 260px 235px rgb(0 0 0 / 50%);
         text-align: center;
-        padding: 40px 20px;
         background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     .top-container{
         display: none;
@@ -694,8 +1035,10 @@ h4 {
         margin-bottom: 20px;
     }
     header .text-container{
-        margin: 197px auto 0px auto;
+        /* box-shadow: inset 300px 0 250px 396px rgb(0 0 0 / 86%); */
+        margin: 180px auto 0px auto;
         height: 50vh;
+        max-width: 100%;
     }
     header .text-container .text .big-text {
         font-size: 36px;
@@ -711,34 +1054,38 @@ h4 {
     .portfolio-section{
         grid-template-columns: auto;
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 96px;
     }
     .portfolio-section .card:nth-child(2) {
         border: none;
-        border-top: 1px solid #00000036;
-        border-bottom: 1px solid #00000036;
-        margin-top: 90px;
+        margin-top: 0px;
     }
     .portfolio-section .card {
-        width: 338%;
+        width: 99%;
         padding: 30px 0px;
     }
 
 
     .blue-section-container .swipe-images{
         grid-template-columns: auto;
+        padding: 0px;
     }
     .blue-section-container .swipe-images img {
         margin-bottom: 5px;
+        min-width: 90%;
     }
-    .blue-section-container .swipe-images:nth-child(1){
-
+    .blue-section-container .swipe-images img:not(:first-child) {
+        display: none;
     }
     .blue-section-container .blue-section {
-        height: 108vh;
+        height: 82vh;
+        margin-top: -100px;
     }
+
     .center-bluetext{
         flex-direction: column-reverse;
+        margin-top: 0px;
+        padding-top: 138px;
     }
     .center-bluetext .text {
         width: 100%;
@@ -771,10 +1118,12 @@ h4 {
     }
     .scnd-left{
         text-align: center;
+        max-width: 100%;
         width: 100%;
         box-sizing: border-box;
         padding: 0px 32px;
         margin-top: 0px;
+
     }
     .vr-line{
         border: none;
@@ -787,6 +1136,10 @@ h4 {
     }
     .dot{
         display: none;
+    }
+
+        .margin-padding {
+        padding: 0px 70px 0px 70px;
     }
 
 
@@ -807,14 +1160,15 @@ h4 {
 
     .feature-grid {
         display: block;
-        max-width: 85%;
+        max-width: 100%;
         margin: 0px auto 0px auto;
     }
     .feature-block {
         margin-bottom: 30px;
+        padding: 0px 20px;
     }
     .oc-card{
-        margin-bottom: 20px;
+        margin: 0px 20px 20px 20px;
     }
 
 
@@ -826,13 +1180,13 @@ h4 {
     }
     .developers-container .designer-card {
         width: 94%;
-        height: 220px;
+        height: 248px;
     }
 
 
 
     .logo-images {
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
     }
 
 
@@ -855,6 +1209,7 @@ h4 {
     .form-wrapper {
         width: 100%;
         box-shadow: none;
+        padding: 0px;
     }
 
 
@@ -873,11 +1228,45 @@ h4 {
 }
 
 
-@media (max-width: 1024px) {
-    header{
-    background-position: center top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    }
 
-}
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 1024px) {
+  header {
+    background-position: center top;
+    background-size: cover;
+  }
+
+  .portfolio-section {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 40px;
+  }
+
+  .center-bluetext {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .center-bluetext .text {
+    width: 100%;
+  }
+
+  .details {
+    flex-direction: column;
+  }
+
+  .developers-container {
+    flex-direction: column;
+  }
+
+  .contact-container {
+    flex-direction: column-reverse;
+  }
+} */
